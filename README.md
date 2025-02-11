@@ -20,9 +20,7 @@ cd codeigniter-user-management
 Create a database in MySQL (e.g., ci_user_management).
 Import database.sql (if provided).
 Configure database in application/config/database.php:
-php
-Copy
-Edit
+
 $db['default'] = array(
     'dsn'   => '',
     'hostname' => 'localhost',
