@@ -33,14 +33,10 @@ $db['default'] = array(
 );
 3. Configure Base URL:
 Open application/config/config.php and update:
-php
-Copy
-Edit
+
 $config['base_url'] = 'http://localhost/ci/';
+
 4. Run the Application:
 Start Apache and MySQL in XAMPP
 Open your browser and go to:
-ruby
-Copy
-Edit
 http://localhost/ci/index.php/user
